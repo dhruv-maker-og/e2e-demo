@@ -11,7 +11,7 @@ A small Flask + SQLite service used for the IGI end-to-end GitHub demo.
 - Every new endpoint ships with a matching test in `tests/test_app.py`.
 
 ## Testing
-- Run `pytest -q` from the `demo-app/` folder. CI (`.github/workflows/ci.yml`)
+- Run `pytest -q` from the repository root. CI (`.github/workflows/ci.yml`)
   runs the same command on every pull request and must pass before merge.
 
 ## Style
