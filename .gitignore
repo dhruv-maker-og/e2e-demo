@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+demo.db
+.pytest_cache/
+.env
+config.py
+
+# presenter aids — excluded from the audience-facing repo
+seed/
+DEMO_SEAMS.md
+SETUP_CHECKLIST.md
