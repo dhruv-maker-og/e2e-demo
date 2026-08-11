@@ -5,6 +5,11 @@ from .db import get_db
 bp = Blueprint("main", __name__)
 
 
+@bp.get("/health")
+def health():
+    return jsonify({"status": "healthy"})
+
+
 @bp.get("/")
 def index():
     return jsonify({"service": "igi-demo", "status": "ok"})
