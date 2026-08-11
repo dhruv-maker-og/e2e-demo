@@ -11,5 +11,4 @@ some inputs) — try it with pct=10 on price=50 and it returns 40.0 instead of 4
 
 
 def apply_discount(price: float, pct: float) -> float:
-    # BUG: subtracts the percentage value instead of the percentage OF price.
-    return price - pct
+    return price * (1 - pct / 100)
