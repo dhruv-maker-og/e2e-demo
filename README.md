@@ -22,4 +22,3 @@ Then visit:
 ```powershell
 pytest -q
 ```
-test
