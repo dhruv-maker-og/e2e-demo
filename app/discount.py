@@ -11,5 +11,4 @@ The pct=0 case still passes by coincidence (2 of 3 tests fail).
 
 
 def apply_discount(price: float, pct: float) -> float:
-    # BUG: pct should be divided by 100 before being applied
-    return price - price * pct
+    return price * (1 - pct / 100)
